@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display-swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <section class="header_main">
+    <nav>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="signin.html">SIGN IN / REGISTER</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1 style="font-family:Times"> Start Learning With World's Best Online Learning Platform </h1>
+      <br>
+      <br>
+      <p class="p1">E-learning is a learning environment which uses information and communication technologies (ICT's)
+        <br>
+        As a platform for teaching and learning activities. It has been defined as "pedagogy empowered by technology", though 'digital technology is more accurate.
+      </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <a href="course.html" class="hero-btn">Explore all courses</a>
+    </div>
+  </section>
+
+
+
+  <!-----------------------CALL TO ACTION------------------->
+
+  <section class="cta">
+    <h1 style="font-family:Times">Enroll For Our Courses</h1>
+    <a href="signin.html" class="hero-btn">Enroll Course</a>
+  </section>
+
+
+
+  <!------------------footer--------------------------->
+
+  <section class="footer">
+    <h2 style="font-family:Times">About Us</h2>
+
+    <div class="footer-basic">
+      <footer>
+        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
+              class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="index.html">Home</a></li>
+          <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+          <li class="list-inline-item"><a href="about.html">About</a></li>
+        </ul>
+        <p class="madeby">Made by Sonali Prakash Shinde</p>
+      </footer>
+    </div>
+  </section>
+
+
+
+
+
+  <!------------------------------javascript for Toggle Menu------------------------->
+
+  <script>
+    var navlinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navlinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
